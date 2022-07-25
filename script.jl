@@ -1,3 +1,4 @@
+using Plots
 
 # e6
 
@@ -95,5 +96,8 @@ end
 
 
 
+# plots
 
+x = 1:10; y = rand(10); # These are the plotting data
+plot(x, y)
 
